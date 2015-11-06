@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("com.kirillrublevsky.controller")
+@ComponentScan("com.kirillrublevsky")
 public class ServletContextConfig extends WebMvcConfigurerAdapter {
 
     @Override
