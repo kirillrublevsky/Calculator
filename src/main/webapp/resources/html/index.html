@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/resources/css/vendor/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css"/>
+</head>
+<body>
+<div class="container">
+    <form class="form-inline" role="form">
+        <div class="form-group">
+            <input type="number" class="form-control" id="first" required>
+        </div>
+        <div class="form-group">
+            <select class="form-control" id="operation">
+                <option>+</option>
+                <option>-</option>
+                <option>*</option>
+                <option>/</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" id="second" required>
+        </div>
+        <span id="output">&nbsp;&nbsp;=&nbsp;&nbsp;<span id="result">0.0</span></span>
+    </form>
+    <button id="calculate" type="submit" class="btn btn-danger btn-lg">Calculate</button>
+</div>
+<script src="/resources/js/vendor/jquery.min.js"></script>
+<script src="/resources/js/vendor/bootstrap.min.js"></script>
+<script src="/resources/js/app.js"></script>
+</body>
+</html>

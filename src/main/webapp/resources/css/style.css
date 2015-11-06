@@ -1,0 +1,28 @@
+
+body {
+    background-color: #6B8E23;
+    color: #fff;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    position: absolute;
+    top: 60%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+#output {
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+
+
+
